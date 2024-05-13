@@ -1,0 +1,23 @@
+{
+  "name": "flashloanproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xAlphaCentauri/flashloan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xAlphaCentauri/flashloan/issues"
+  },
+  "homepage": "https://github.com/0xAlphaCentauri/flashloan#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  }
+}
