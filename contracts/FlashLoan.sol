@@ -34,7 +34,7 @@ contract FlashLoan {
                 
 
         // Send tokens to receiver
-        token.transfer(msg.sender, _borrowAmount);
+        token.transfer(msg.sender, _borrowAmount); 
         // Use loan, get paid back 
         IReceiver(msg.sender).receiveTokens(address(token), _borrowAmount);
         // Ensure loan paid back
